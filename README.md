@@ -37,14 +37,14 @@ The final notebook represents an integrated effort in which AI served as a suppl
 ### Dataset choice and justification
 
 - **Files**: `ml-dataset.ipynb`, `hotel_bookings_updated_2024.csv`
-    - The hotel bookings dataset was chosen because it comes from a reputable source (Kaggle.com), has a high Usability rating (Completeness, Credibility, Compatibility as calculated by Kaggle), contains 33 columns of data (features), and over 119,000 instances. The large size in particular makes it ideal for a machine learning approach, where a split into training and testing datasets is needed.
+    - The hotel bookings dataset was chosen because it comes from a reputable source (Kaggle.com), has a high Usability rating (Completeness, Credibility, Compatibility as calculated by Kaggle), and contains 33 columns of data (features). These features make it ideal for a machine learning approach.
     - `ml-dataset.ipynb` downloads the latest version of this dataset and readies it for use by the models.
 
 ### Methodology
 - **Models used**: Random Forest, Gradient Boosting
     - the RandomForestClassifier and GradientBoostingClassifier from the sklearn library are trained and tested on this dataset.
     - Random Forest was chosen because its random feature splitting works well with the many features of the dataset.
-    - Gradient Boosting was chosen because 
+    - Gradient Boosting was chosen because of its focus on reducing loss, resulting in better accuracy.
 
 ### Results analysis
 - **Model Performance**: Predicting the is_cancelled feature
